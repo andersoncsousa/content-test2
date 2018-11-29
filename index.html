@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <title>Site Maneiro</title>
+</head>
+<body>
+<!-- Top Navigation Menu -->
+<nav class="topnav">
+  <a href="#home" class="active">Logo</a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="menuHamburger()">
+    <i class="fa fa-bars"></i>
+  </a>
+</nav>
+<div class="content">
+    <section class="">
+        <a href="javascript:void(0);" onclick="sessaoPlus()" class="title-check"><h1>Sessão 1<i class="fa fa-plus"></i></h1></a>
+        <div class="sessao-conteudo" id="sessao1">
+            <img src="" alt="imagem1">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Vero, facilis. Saepe ut harum voluptatibus voluptate ducimus nisi aut, 
+            error ab sit sequi distinctio debitis repellendus 
+            molestiae cum sunt porro placeat.</p>
+            <button type="button"><a href="#">Leia mais</a></button>
+        </div>
+    </section>
+    <section class="">
+        <a href="javascript:void(0);" onclick="sessaoPlus()" class="title-check"><h1>Sessão 2<i class="fa fa-plus"></i></h1></a>
+        <div class="sessao-conteudo" id="sessao2"> 
+            <img src="" alt="imagem2">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Vero, facilis. Saepe ut harum voluptatibus voluptate ducimus nisi aut, 
+            error ab sit sequi distinctio debitis repellendus 
+            molestiae cum sunt porro placeat.</p>
+            <button type="button"><a href="#">Leia mais</a></button>
+        </div>
+    </section>
+    <section class="">
+        <a href="javascript:void(0);" onclick="sessaoPlus()" class="title-check"><h1>Sessão 3<i class="fa fa-plus"></i></h1></a>
+        <div class="sessao-conteudo" id="sessao3">
+            <img src="" alt="imagem3">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Vero, facilis. Saepe ut harum voluptatibus voluptate ducimus nisi aut, 
+            error ab sit sequi distinctio debitis repellendus 
+            molestiae cum sunt porro placeat.</p>
+            <button type="button"><a href="#">Leia mais</a></button>
+        </div>
+    </section>
+</div>
+<footer>
+    @Caique Sousa 2018
+</footer>
+</body>
+</html>
